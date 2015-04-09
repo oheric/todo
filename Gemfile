@@ -10,6 +10,10 @@ group :development, :test do
   gem 'shoulda-matchers', require: false
 end
 
+group :production do 
+  gem 'rails_12factor', '0.0.2'
+end
+
 # Use postgresql as the database for Active Record
 gem 'pg'
 
