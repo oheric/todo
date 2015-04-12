@@ -8,6 +8,10 @@ gem 'factory_girl_rails'
 group :development, :test do
   gem 'rspec-rails', '~> 3.0.0'
   gem 'shoulda-matchers', require: false
+  gem 'byebug'
+  gem 'web-console', '~> 2.0.0.beta4'
+  gem 'spring'
+  gem 'capybara'
 end
 
 group :production do 
